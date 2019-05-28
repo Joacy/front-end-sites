@@ -12,7 +12,7 @@
         
         <!-- Fim do Conteúdo -->
         
-        <?php include('footer.php'); ?>
+        <?php include('footer1.php'); ?>
 
     </div>
     <?php include('script.php'); ?>
