@@ -617,7 +617,7 @@
 
 		<section class="coluna-flex centralizado parceiros">
 			<div class="container">
-				<div class="row">
+				<!--<div class="row">
 					<div class="coluna-flex centralizado col-12 col-md-4">
 						<div class="d-flex flex-row align-items-center justify-content-center">
 							<img src="imagens/coelba.png">
@@ -635,7 +635,7 @@
 							<img src="imagens/light.png">
 						</div>
 					</div>
-				</div>
+				</div>-->
 
 				<div class="coluna-flex justify-content-center">
 					<div class="owl-carousel">
@@ -696,102 +696,101 @@
 						</div>
 					</div>
 				</div>
-		</section>
+			</section>
 
-		<section class="oitava-index">
-			<div class="container">
-				<div class="coluna-flex centralizado">
-					<h1 class="titulo preto2 negrito">
-						A cada dia você perde mais dinheiro
-					</h1>
-					<p class="subtitulo cinza italico">
-						saiba porque
-					</p>
-					<form class="form-index" action="enviar-email" method="POST">
-						@csrf
-						<div class="linha-flex centralizado">
-							<input type="email" required name="email" placeholder="deixe seu email...">
-							<button class="button btn botao-form-email" type="submit">Enviar</button>
-						</div>
-					</form>
+			<section class="oitava-index">
+				<div class="container">
+					<div class="coluna-flex centralizado">
+						<h1 class="titulo preto2 negrito">
+							A cada dia você perde mais dinheiro
+						</h1>
+						<p class="subtitulo cinza italico">
+							saiba porque
+						</p>
+						<form class="form-index" action="enviar-email" method="POST">
+							<div class="linha-flex centralizado">
+								<input type="email" required name="email" placeholder="deixe seu email...">
+								<button class="button btn botao-form-email" type="submit">Enviar</button>
+							</div>
+						</form>
+					</div>
 				</div>
-			</div>
-		</section>
+			</section>
 
-		<script type="text/javascript">
-			var entrou = 0;
+			<script type="text/javascript">
+				var entrou = 0;
 
-			function funcaoContar() {
+				function funcaoContar() {
 
-				if (entrou == 0) {
+					if (entrou == 0) {
 
-					var pontos = 12345;
-					var counter = 0;
+						var pontos = 12345;
+						var counter = 0;
 
-					var timer = setInterval(function() {
-						counter = counter + 123;
+						var timer = setInterval(function() {
+							counter = counter + 123;
 
-						if (counter >= pontos) {
-							clearInterval(timer);
-							counter = pontos;
-						}
+							if (counter >= pontos) {
+								clearInterval(timer);
+								counter = pontos;
+							}
 
-						document.getElementById("pts-instalados").innerHTML = counter;
-						document.getElementById("pts-instalados1").innerHTML = counter;
-						document.getElementById("pts-instalados2").innerHTML = counter;
+							document.getElementById("pts-instalados").innerHTML = counter;
+							document.getElementById("pts-instalados1").innerHTML = counter;
+							document.getElementById("pts-instalados2").innerHTML = counter;
 
-					}, 0.01);
+						}, 0.01);
 
-					entrou = entrou + 1;
+						entrou = entrou + 1;
+					}
 				}
-			}
-		</script>
+			</script>
 
-		<script type="text/javascript">
-			var entrou1 = 0;
+			<script type="text/javascript">
+				var entrou1 = 0;
 
-			function animaQuadros() {
-				if (entrou1 == 0) {
+				function animaQuadros() {
+					if (entrou1 == 0) {
 
-					$("#centro").removeClass("invisivel");
-					$("#centro").addClass("vemCima");
+						$("#centro").removeClass("invisivel");
+						$("#centro").addClass("vemCima");
 
-					$("#esquerda").removeClass("invisivel");
-					$("#esquerda").addClass("vemEsquerda");
+						$("#esquerda").removeClass("invisivel");
+						$("#esquerda").addClass("vemEsquerda");
 
-					$("#direita").removeClass("invisivel");
-					$("#direita").addClass("vemDireita");
+						$("#direita").removeClass("invisivel");
+						$("#direita").addClass("vemDireita");
 
-					entrou1 = 1;
-				} else {
-					$("#centro").removeClass("vemCima");
-					$("#esquerda").removeClass("vemEsquerda");
-					$("#direita").removeClass("vemDireita");
+						entrou1 = 1;
+					} else {
+						$("#centro").removeClass("vemCima");
+						$("#esquerda").removeClass("vemEsquerda");
+						$("#direita").removeClass("vemDireita");
+					}
 				}
-			}
-		</script>
+			</script>
 
-		<script type="text/javascript">
-			var entrou2 = 0;
+			<script type="text/javascript">
+				var entrou2 = 0;
 
-			function zoomMapa() {
-				if (entrou2 == 0) {
+				function zoomMapa() {
+					if (entrou2 == 0) {
 
-					$("#mapa-Brasil").removeClass("invisivel");
-					$("#mapa-Brasil").addClass("aplicaZoomMapa");
+						$("#mapa-Brasil").removeClass("invisivel");
+						$("#mapa-Brasil").addClass("aplicaZoomMapa");
 
-					entrou2 = 1;
-				} else {
-					$("#mapa-Brasil").removeClass("aplicaZoomMapa");
+						entrou2 = 1;
+					} else {
+						$("#mapa-Brasil").removeClass("aplicaZoomMapa");
+					}
 				}
-			}
-		</script>
-		<!-- Fim do Conteúdo -->
+			</script>
+			<!-- Fim do Conteúdo -->
 
-		<?php include('footer.php'); ?>
+			<?php include('footer.php'); ?>
 
-	</div>
-	<?php include('script.php'); ?>
-</body>
+		</div>
+		<?php include('script.php'); ?>
+	</body>
 
-</html>
+	</html>
