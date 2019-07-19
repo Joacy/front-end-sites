@@ -435,7 +435,7 @@
 				<h1>
 					Contato
 				</h1>
-				<a href="contato"><button type="button"class="btn botao-contato">Entre em Contato</button></a>
+				<a href="contato.php"><button type="button"class="btn botao-contato">Entre em Contato</button></a>
 			</div>
 		</section>
 

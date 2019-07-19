@@ -57,7 +57,7 @@
 								Garantir proteção ao patrimônio de forma responsável, personalizada e ágil, através da transparência, buscando a satisfação do cliente de forma que torne os vínculos fortes e duradouros.
 							</p>
 							<div class="linha-flex justificado">
-								<a href="cotacao" class="btn botao-verde">Contratar</a>
+								<a href="cotacao.php" class="btn botao-verde">Contratar</a>
 							</div>
 						</div>
 					</div>
@@ -77,7 +77,7 @@
 						</p>
 					</div>
 					<div class="col-12 coluna-flex centralizado missao1">
-						<a href="cotacao" class="btn botao-verde">Contratar</a>
+						<a href="cotacao.php" class="btn botao-verde">Contratar</a>
 					</div>
 				</div>
 			</div>
@@ -245,7 +245,7 @@
 				<h1>
 					Contato
 				</h1>
-				<a href="contato"><button type="button"class="btn botao-contato">Entre em Contato</button></a>
+				<a href="contato.php"><button type="button"class="btn botao-contato">Entre em Contato</button></a>
 			</div>
 		</section>
 		<!-- Fim do Conteúdo -->

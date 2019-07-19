@@ -26,7 +26,7 @@
                             <h5>Seguro Auto</h5>
                             <img class="insurance" src="imagens/insurance.png">
                             <p>Faça sua cotação!</p>
-                            <a class="btn botao-cotacao" href="cotacao">Cotação</a>
+                            <a class="btn botao-cotacao" href="cotacao.php">Cotação</a>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3">
@@ -34,7 +34,7 @@
                             <h5>Seguro Vida</h5>
                             <img class="hand" src="imagens/hand.png">
                             <p>Faça sua cotação!</p>
-                            <a class="btn botao-cotacao" href="cotacao">Cotação</a>
+                            <a class="btn botao-cotacao" href="cotacao.php">Cotação</a>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3">
@@ -42,7 +42,7 @@
                             <h5>Seguro Residencial</h5>
                             <img class="shield" src="imagens/shield.png">
                             <p>Faça sua cotação!</p>
-                            <a class="btn botao-cotacao" href="cotacao">Cotação</a>
+                            <a class="btn botao-cotacao" href="cotacao.php">Cotação</a>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3">
@@ -50,7 +50,7 @@
                             <h5>Seguro Empresarial</h5>
                             <img class="insurance" src="imagens/insurance.png">
                             <p>Faça sua cotação!</p>
-                            <a class="btn botao-cotacao" href="cotacao">Cotação</a>
+                            <a class="btn botao-cotacao" href="cotacao.php">Cotação</a>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
                             <h5>Seguro Auto</h5>
                             <img class="insurance" src="imagens/insurance.png">
                             <p>Faça sua cotação!</p>
-                            <a class="btn botao-cotacao" href="cotacao">Cotação</a>
+                            <a class="btn botao-cotacao" href="cotacao.php">Cotação</a>
                         </div>
                     </div>
                     <div class="col-12 col-md-5">
@@ -73,7 +73,7 @@
                             <h5>Seguro Vida</h5>
                             <img class="hand" src="imagens/hand.png">
                             <p>Faça sua cotação!</p>
-                            <a class="btn botao-cotacao" href="cotacao">Cotação</a>
+                            <a class="btn botao-cotacao" href="cotacao.php">Cotação</a>
                         </div>
                     </div>
                     <div class="col-12 col-md-5">
@@ -81,7 +81,7 @@
                             <h5>Seguro Residencial</h5>
                             <img class="shield" src="imagens/shield.png">
                             <p>Faça sua cotação!</p>
-                            <a class="btn botao-cotacao" href="cotacao">Cotação</a>
+                            <a class="btn botao-cotacao" href="cotacao.php">Cotação</a>
                         </div>
                     </div>
                     <div class="col-12 col-md-5">
@@ -89,7 +89,7 @@
                             <h5>Seguro Empresarial</h5>
                             <img class="insurance" src="imagens/insurance.png">
                             <p>Faça sua cotação!</p>
-                            <a class="btn botao-cotacao" href="cotacao">Cotação</a>
+                            <a class="btn botao-cotacao" href="cotacao.php">Cotação</a>
                         </div>
                     </div>
                 </div>
@@ -114,7 +114,7 @@
             <div class="container coluna-flex justificado consulte">
                 <h1>Seguro de vida não é apenas em caso de morte, entre em contato com um de nossos consultores e descubra as vantagens.</h1>
                 <div class="linha-flex justificado">
-                    <a href="produtos" class="btn botao-verde">Solicite</a>
+                    <a href="produtos.php" class="btn botao-verde">Solicite</a>
                 </div>
             </div>
         </section>
@@ -123,7 +123,7 @@
             <div class="container coluna-flex justificado consulte">
                 <h1>Seguro de vida não é apenas em caso de morte, entre em contato com um de nossos consultores e descubra as vantagens.</h1>
                 <div class="linha-flex justificado">
-                    <a href="produtos" class="btn botao-verdeB">Solicite</a>
+                    <a href="produtos.php" class="btn botao-verdeB">Solicite</a>
                 </div>
             </div>
         </section>
@@ -134,13 +134,13 @@
                     <div class="col-12 col-lg-6 coluna-flex beneficios1 justificado d-none d-lg-block">
                         <h2>Por que contratar pela RoadSeg?</h2>
                         <p>Nossa missão é tranquilizar sua vida, a vida é feita de imprevistos e tudo pode acontecer a qualquer momento. Nossa presença é exatamente para que você não se preocupe com esses momentos, iremos lhe auxiliar no que for necessário.</p>
-                        <a href="clientes" class="btn botao-laranja">Confira de quem confia em nós</a>
+                        <a href="clientes.php" class="btn botao-laranja">Confira de quem confia em nós</a>
                     </div>
                     <div class="col-12 col-lg-6 coluna-flex beneficios1 justificado d-lg-none">
                         <h2>Por que contratar pela RoadSeg?</h2>
                         <p>Nossa missão é tranquilizar sua vida, a vida é feita de imprevistos e tudo pode acontecer a qualquer momento. Nossa presença é exatamente para que você não se preocupe com esses momentos, iremos lhe auxiliar no que for necessário.</p>
                         <div class="linha-flex justificado">
-                            <a href="clientes" class="btn botao-laranja">Confira de quem confia em nós</a>
+                            <a href="clientes.php" class="btn botao-laranja">Confira de quem confia em nós</a>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6">
@@ -176,7 +176,7 @@
                         <div class="coluna-flex justificado texto">
                             <h3>Lorem ipsum</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum.</p>
-                            <a class="linha-flex justificado" href="eventos"><h5>continue lendo</h5><i class="fas fa-caret-right"></i></a>
+                            <a class="linha-flex justificado" href="eventos.php"><h5>continue lendo</h5><i class="fas fa-caret-right"></i></a>
                         </div>
                     </div>
                     <div class="coluna-flex col-12 col-md-4 coluna-evento">
@@ -186,7 +186,7 @@
                         <div class="coluna-flex justificado texto">
                             <h3>Lorem ipsum</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum.</p>
-                            <a class="linha-flex justificado" href="eventos"><h5>continue lendo</h5><i class="fas fa-caret-right"></i></a>
+                            <a class="linha-flex justificado" href="eventos.php"><h5>continue lendo</h5><i class="fas fa-caret-right"></i></a>
                         </div>
                     </div>
                     <div class="coluna-flex col-12 col-md-4 coluna-evento">
@@ -196,7 +196,7 @@
                         <div class="coluna-flex justificado texto">
                             <h3>Lorem ipsum</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum.</p>
-                            <a class="linha-flex justificado" href="eventos"><h5>continue lendo</h5><i class="fas fa-caret-right"></i></a>
+                            <a class="linha-flex justificado" href="eventos.php"><h5>continue lendo</h5><i class="fas fa-caret-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -208,7 +208,7 @@
                 <h1>
                     Contato
                 </h1>
-                <a href="contato"><button type="button"class="btn botao-contato">Entre em Contato</button></a>
+                <a href="contato.php"><button type="button"class="btn botao-contato">Entre em Contato</button></a>
             </div>
         </section>
 
